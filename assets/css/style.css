@@ -14,6 +14,23 @@ body {
   color: #0d1e2d;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+
 a {
   color: #777;
   text-decoration: none;
